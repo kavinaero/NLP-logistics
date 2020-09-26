@@ -1,0 +1,20 @@
+09-23 13:52 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+09-23 13:52 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:52:09] "[37mGET / HTTP/1.1[0m" 200 -
+09-23 13:52 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:52:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+09-23 13:52 root         INFO     select * from FLEET
+09-23 13:52 root         INFO     select * from FLEET
+09-23 13:52 root         INFO     Number of Rows fetched 5
+09-23 13:52 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:52:28] "[37mPOST / HTTP/1.1[0m" 200 -
+09-23 13:52 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:52:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+09-23 13:52 root         INFO     select * from TRACK where operation_status = 'Delayed'
+09-23 13:52 root         INFO     select * from TRACK where operation_status = 'Delayed'
+09-23 13:52 root         INFO     Number of Rows fetched 1
+09-23 13:52 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:52:50] "[37mPOST / HTTP/1.1[0m" 200 -
+09-23 13:54 root         INFO     select * from TRACK
+09-23 13:54 root         INFO     select * from TRACK
+09-23 13:54 root         INFO     Number of Rows fetched 4
+09-23 13:54 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:54:07] "[37mPOST / HTTP/1.1[0m" 200 -
+09-23 13:54 root         INFO     select * from TRACK where operation_status = 'Transit'
+09-23 13:54 root         INFO     select * from TRACK where operation_status = 'Transit'
+09-23 13:54 root         INFO     Number of Rows fetched 1
+09-23 13:54 werkzeug     INFO     127.0.0.1 - - [23/Sep/2020 13:54:47] "[37mPOST / HTTP/1.1[0m" 200 -
